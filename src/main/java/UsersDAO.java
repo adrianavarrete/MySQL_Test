@@ -1,5 +1,5 @@
 public interface UsersDAO {
 
-    public void addUser(String name, String apellido);
+    public void addUser(String name, String apellido) throws Exception;
 
 }
